@@ -1,0 +1,52 @@
+{"intents": [
+        {
+
+        "tag": "greeting",
+        "patterns": ["Hey", "Greetings", "Good to see you", "Nice to meet you", "What's new?", "Look who it is!", "Long time no see", "Good morning", "Good afternoon", "Good evening", "How's it going?", "How have you been?", "How's your day?", "How's everything?", "How's life?", "How's your family?", "What's good?", "What's happening?", "What's up buttercup?", "How do you do?"],
+        "responses": ["Hey there!", "Nice to see you!", "Hey, how can I assist you today?", "Hello, what can I do for you?", "Good day to you!", "Hello, let's get started!", "Hey, what can I help you with today?", "Hello, feel free to ask me anything.", "Hi, hope you're having a good day!", "Hello, need any assistance today?", "Hi, what brings you here today?", "Hello, how may I serve you today?", "Hi, let me know how I can help you.", "Hello, what would you like to know?", "Hi, ask me anything you want to know."],
+        "context_set": ""
+        },
+
+
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day" , "bye","Time to say goodbye", "It's been real", "It's been fun", "bye bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Get Out Idiot", "Nikal Saale" ,"Farewell, hope to see you again!", "Catch you later, take care!", "See you soon, have a great day!", "Take care, stay safe!", "Keep in touch, goodbye!", "Until next time, farewell!", "All the best, goodbye!", "Good luck, see you next time!", "Peace out, see you soon!", "Signing off, goodbye!", "Over and out, take care!", "I'm outta here, goodbye!", "Time to say goodbye, take care!", "It's been real, see you next time!", "It's been fun, goodbye!"],
+         "context_set": ""
+        },
+
+
+        {"tag": "age",
+         "patterns": ["how old", "how old is yash", "what is your age", "how old are you", "age?","how old are you", "what is your age"],
+         "responses": ["I am 20 years old!", "20 years young!" , "Yash is 20 years old!"],
+         "context_set": ""
+        },
+
+        {
+        "tag": "name",
+        "patterns": ["what is your name","what should I call you","whats your name?","who are you","introduce yourself", "tell me about yourself","what  do I call you"],
+        "responses": ["You can call me Yash.","I'm Yash!","I'm Yash","My name is Yash.","I'm an AI assistant and my name is Yash.","Hello, I'm Yash, here to help you."],
+        "context_set": ""
+        }
+
+        ,
+
+        {
+        "tag": "contact_info",
+        "patterns": [
+          "how can I contact you",
+          "what is your phone number",
+          "what is your email address",
+          "where is your office located"
+        ],
+        "responses": [
+          "You can reach us by phone at 9577219111, or by email at yashpinjarkar2003@gmail.com.",
+          "For any inquiries or support, feel free to call us at 9577219111, yashpinjarkar2003@gmail.com"
+        ],
+        "context_set": ""
+      }
+
+
+
+
+   ]
+}
